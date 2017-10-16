@@ -22,7 +22,7 @@ public class ReceiveController {
     @Autowired
     private ReceiveService receiveService;
 
-    @ApiOperation(value = "领取体验金")   //方法名注解
+    @ApiOperation(value = "领取体验金a")   //方法名注解
     @RequestMapping("/receive.do")   //和以前一样
     public JsonResult receive(@ApiParam(name="phone",value="用户手机号",required = true)String phone,
                               @ApiParam(name="cCode",value="领取码",required = true)String cCode,HttpServletResponse response){
