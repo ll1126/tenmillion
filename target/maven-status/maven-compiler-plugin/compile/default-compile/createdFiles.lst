@@ -1,0 +1,10 @@
+com\wsloan\Util\JsonResult.class
+com\wsloan\SpringApplicationBuilder.class
+com\wsloan\Util\JsoupUtil.class
+com\wsloan\Service\ReceiveServiceImpl.class
+com\wsloan\Dao\ReceiveDao.class
+com\wsloan\TenMillionApplication.class
+com\wsloan\Service\ReceiveService.class
+com\wsloan\Util\WebMvcConfig.class
+com\wsloan\Controller\ReceiveController.class
+com\wsloan\Util\Swagger2Config.class

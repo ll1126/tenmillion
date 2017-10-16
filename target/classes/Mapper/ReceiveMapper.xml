@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsloan.Dao.ReceiveDao">
+
+
+    <!--根据手机号查询用户id-->
+    <select id="findUser" resultType="Integer">
+        select id from t_User where cmtel=#{phone}
+    </select>
+
+    <!--查询该用户体检金记录-->
+    <select id="findRecord" resultType="map">
+       select  * from t_bbin_AmountRecord where fuid=#{fUid} and  fbdSM='sdfdfffff'
+    </select>
+
+    <!--查询领取码状态-->
+    <select id="findLqm" resultType="map">
+      select * from  ws_db2..t_Qwxh  where cCode=#{cCode}
+    </select>
+
+    <!--更改领取码状态为1-->
+    <update id="upLqm">
+          update ws_db2..t_Qwxh set fzt=1 where cCode=#{cCode} and fzt=0
+
+    </update>
+    <!--生成体验金记录-->
+    <select id="inRecord" resultType="map">
+         ws_db.dbo.p_bbin_Access #{fUid},8888,'sdfdfffff'
+    </select>
+
+</mapper>
