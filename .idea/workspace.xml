@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78fe3692-daa2-4940-acb5-92614cea4b28" name="Default" comment="1">
+    <list default="true" id="78fe3692-daa2-4940-acb5-92614cea4b28" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wsloan/Controller/ReceiveController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsloan/Controller/ReceiveController.java" />
     </list>
@@ -25,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wsloan/Controller/ReceiveController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
-              <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -404,7 +404,7 @@
       <workItem from="1508117080562" duration="1395000" />
       <workItem from="1508120166189" duration="82000" />
       <workItem from="1508133609878" duration="919000" />
-      <workItem from="1508138624849" duration="2054000" />
+      <workItem from="1508138624849" duration="2155000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1508139331403</created>
@@ -420,11 +420,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508140192408</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <created>1508140693206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1508140693206</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26284000" />
+    <option name="totallyTimeSpent" value="26385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -676,7 +683,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wsloan/Controller/ReceiveController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
-          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
           <folding />
         </state>
       </provider>
